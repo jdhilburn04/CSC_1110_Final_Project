@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Character
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Player\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name
+comment1.target=Character(java.lang.String)
+comment10.params=
+comment10.target=double\ getWeightLimit()
+comment2.params=r
+comment2.target=void\ setRoom(Room)
+comment3.params=
+comment3.target=Room\ getRoom()
+comment4.params=it
+comment4.target=Item\ getItem(java.lang.String)
+comment5.params=it
+comment5.target=Item\ removeItem(java.lang.String)
+comment6.params=item
+comment6.target=void\ addItem(Item)
+comment7.params=item
+comment7.target=double\ getWeight(java.lang.String)
+comment8.params=
+comment8.target=double\ totalWeight()
+comment9.params=l
+comment9.target=void\ setWeightLimit(double)
+numComments=11

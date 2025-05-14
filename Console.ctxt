@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Console
+comment0.text=\r\n\ Plays\ the\ Game\ from\ a\ Console\ interface\ (i.e.,\ a\ terminal\ window).\r\n\ \r\n\ @author\ William\ H.\ Hooper\r\n\ @version\ 2018-11-29\r\n
+comment1.params=g
+comment1.target=Console(Game)
+comment1.text=\r\n\ Creates\ a\ new\ console\ game.\r\n\ @param\ g\ a\ Game,\ the\ engine\ that\ actually\ \r\n\ processes\ all\ the\ input\ and\ \r\n\ generates\ all\ the\ output.\r\n
+comment2.params=
+comment2.target=void\ play()
+comment2.text=\r\n\ \ Main\ play\ routine.\ \ Loops\ until\ end\ of\ play.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getInput()
+comment3.text=\r\n\ Prompts\ for\ input\ and\ reads\ one\ line\ from\ the\ console.\r\n\ @return\ a\ single\ line\ of\ input.\r\n
+comment4.params=message
+comment4.target=void\ sendOutput(java.lang.String)
+comment4.text=\r\n\ Prints\ output\ in\ the\ console\ window.\r\n\ @param\ message\ the\ message\ to\ print.\r\n\ If\ the\ message\ contains\ embedded\ newlines,\r\n\ they\ will\ appear\ on\ successive\ lines\ of\ the\ console.\r\n
+comment5.params=cmd
+comment5.target=java.lang.String\ getResponse(java.lang.String)
+comment5.text=\r\n\ Issue\ a\ command\ and\ get\ the\ response.\r\n\ As\ a\ side\ effect,\ it\ prints\ its\ output\ on\ the\ terminal\r\n\ in\ the\ same\ form\ as\ a\ game\ dialog.\r\n\ @param\ cmd\ a\ command\ such\ as\ "help"\r\n\ @return\ the\ game\ output\ that\ results\ from\ the\ commmand.\r\n
+comment6.params=cmd\ reply
+comment6.target=boolean\ testCommand(java.lang.String,\ java.lang.String)
+comment6.text=\r\n\ Test\ whether\ a\ given\ command\ gets\ the\ expected\ response.\r\n\ Input\ and\ output\ appear\ in\ the\ terminal\ as\ a\ game\ dialog.\r\n\ @param\ cmd\ a\ command\ such\ as\ "go\ west"\r\n\ @param\ reply\ part\ of\ the\ expected\ response,\ e.g.,\ "pub"\r\n\ @return\ true\ iff\ the\ response\ contains\ the\ reply\r\n
+comment7.params=cmd
+comment7.target=void\ testCommand(java.lang.String)
+comment7.text=\r\n\ Test\ whether\ a\ given\ command\ gets\ the\ expected\ response.\r\n\ Input\ and\ output\ appear\ in\ the\ terminal\ as\ a\ game\ dialog.\r\n\ @param\ cmd\ a\ command\ such\ as\ "go\ west"\r\n\ @return\ true\ iff\ the\ response\ contains\ the\ reply\r\n
+numComments=8
